@@ -6,7 +6,7 @@
         "multisafepay/magento2-core": "^1.0|^2.0",
         "magento/framework": "^101.0|^102.0|^103.0",
         "magento/module-catalog-inventory": "^100.0",
-        "magento/module-sales": "^102.0|^103.0"
+        "magento/module-sales": "^101.0|^102.0|^103.0"
     },
     "type": "magento2-module",
     "license": [
