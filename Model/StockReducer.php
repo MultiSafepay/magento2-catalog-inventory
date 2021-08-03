@@ -58,8 +58,7 @@ class StockReducer implements StockReducerInterface
             return;
         }
 
-        $products = $order->getAllItems();
-        foreach ($products as $itemId => $product) {
+        foreach ($order->getAllItems() as $product) {
             $stockItem = $this->stockRegistry->getStockItem($product->getProductId());
             $new = $stockItem->getQty() - $product->getQtyOrdered();
             $stockItem->setQty($new);
