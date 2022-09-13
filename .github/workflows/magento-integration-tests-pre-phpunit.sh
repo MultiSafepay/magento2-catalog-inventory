@@ -26,4 +26,3 @@ git clone -b ${CORE_MODULE_BRANCH_NAME} --single-branch https://${GITHUB_ACTOR}:
 composer config repositories.multisafepay "path" "package-source/multisafepay/*"
 composer config minimum-stability dev
 composer config prefer-stable false
-composer update
