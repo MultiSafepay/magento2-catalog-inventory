@@ -1,9 +1,9 @@
 {
     "name": "multisafepay/magento2-catalog-inventory",
     "description": "MultiSafepay module for Magento 2 (only for deprecated Catalog Inventory)",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "require": {
-        "multisafepay/magento2-core": "^1.0|^2.0",
+        "multisafepay/magento2-core": "^1.0|^2.0|^3.0",
         "magento/framework": "^102.0|^103.0",
         "magento/module-catalog-inventory": "^100.0",
         "magento/module-sales": "^102.0|^103.0"
